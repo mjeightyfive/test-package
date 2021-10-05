@@ -1,7 +1,9 @@
-import { jest } from '@jest/globals';
+import { add, subtract } from './index.js';
 
-import add from './index.js';
-
-test('does not crash without params', () => {
+test('adds', () => {
     expect(add(2, 2)).toEqual(4);
+});
+
+test('subtracts', () => {
+    expect(subtract(2, 2)).toEqual(0);
 });
