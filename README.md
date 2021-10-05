@@ -1,5 +1,3 @@
- <a href="https://github.com/mjeightyfive/test-package/actions?query=workflow%3Amain"><img alt="main status" src="https://github.com/mjeightyfive/test-package/workflows/main/badge.svg"></a>
+[![CI](https://github.com/mjeightyfive/test-package/actions/workflows/main.yml/badge.svg)](https://github.com/mjeightyfive/test-package/actions/workflows/main.yml)
 
 # test-package
-
->
