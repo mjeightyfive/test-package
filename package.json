@@ -1,0 +1,23 @@
+{
+  "name": "test-package",
+  "version": "1.0.0",
+  "description": "Test package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjeightyfive/test-package.git"
+  },
+  "keywords": [
+    "test",
+    "package"
+  ],
+  "author": "Marcin <mjeightyfive@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjeightyfive/test-package/issues"
+  },
+  "homepage": "https://github.com/mjeightyfive/test-package#readme"
+}
