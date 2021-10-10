@@ -10,6 +10,12 @@
 
 ## Usage
 
+```
+import { add } from '@mjeightyfive/test-package';
+
+add(2, 2); // => 4
+```
+
 ## Example
 
 ## Structure
