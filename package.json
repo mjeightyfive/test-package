@@ -6,7 +6,8 @@
     "type": "module",
     "scripts": {
         "test": "node --experimental-vm-modules ./node_modules/.bin/jest",
-        "release": "standard-version --sign"
+        "preversion": "npm t",
+        "version": "standard-version --sign --tag-prefix ''"
     },
     "repository": {
         "type": "git",
@@ -25,5 +26,8 @@
     "devDependencies": {
         "jest": "27.2.4",
         "standard-version": "9.3.1"
+    },
+    "standard-version": {
+        "releaseCommitMessageFormat": "{{currentTag}}"
     }
 }
