@@ -6,6 +6,8 @@ name: CI
     pull_request:
         branches:
             - master
+    tags-ignore:
+        - '*'
 jobs:
     test:
         runs-on: ubuntu-latest
