@@ -2,7 +2,7 @@
 
 > Test Package
 
-[![CI](https://github.com/mjeightyfive/test-package/actions/workflows/main.yml/badge.svg)](https://github.com/mjeightyfive/test-package/actions/workflows/main.yml)
+[![CI](https://github.com/mjeightyfive/test-package/actions/workflows/test.yml/badge.svg)](https://github.com/mjeightyfive/test-package/actions/workflows/test.yml)
 
 ## Install
 
