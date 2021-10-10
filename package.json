@@ -5,7 +5,8 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+        "test": "node --experimental-vm-modules ./node_modules/.bin/jest",
+        "release": "standard-version --sign"
     },
     "repository": {
         "type": "git",
@@ -22,6 +23,7 @@
     },
     "homepage": "https://github.com/mjeightyfive/test-package#readme",
     "devDependencies": {
-        "jest": "27.2.4"
+        "jest": "27.2.4",
+        "standard-version": "9.3.1"
     }
 }
