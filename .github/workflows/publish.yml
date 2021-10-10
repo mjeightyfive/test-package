@@ -16,15 +16,15 @@ jobs:
           - run: npm ci
           - run: npm test
 
-    publish:
-        needs: test
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v2
-            - uses: actions/setup-node@v2
-            - uses: flood-io/is-published-on-npm@v1
-              id: is-published
-            - run: npm publish --access public
-              if: ${{ steps.is-published.outputs.published == 'false' }}
-              env:
-                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+  publish:
+      needs: test
+      runs-on: ubuntu-latest
+      steps:
+          - uses: actions/checkout@v2
+          - uses: actions/setup-node@v2
+          - uses: flood-io/is-published-on-npm@v1
+            id: is-published
+          - run: npm publish --access public
+            if: ${{ steps.is-published.outputs.published == 'false' }}
+            env:
+                NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
