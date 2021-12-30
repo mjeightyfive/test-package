@@ -24,6 +24,7 @@
     },
     "homepage": "https://github.com/mjeightyfive/test-package#readme",
     "devDependencies": {
+        "@mjeightyfive/eslint-config": "0.0.56",
         "jest": "27.2.4",
         "standard-version": "9.3.1"
     },
